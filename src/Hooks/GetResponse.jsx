@@ -33,4 +33,4 @@ export default function GetResponse() {
   return { generateResponse };
 }
 
-const API_KEY = "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";
+
