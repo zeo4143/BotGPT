@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(52, 53, 65);
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+ol,
+ul,
+li,
+p,
+span,
+code,
+strong {
+  background-color: inherit;
+}
+
+ol,
+ul,
+li {
+  margin-bottom: 1rem;
+}
+
+ol,
+li,
+pre {
+  margin-block: 2rem;
+}
+
+p {
+  margin-block: 1rem;
+  font-size: 1.1rem;
+}
+
+span,
+code {
+  font-family: monospace;
+  font-size: large;
+}
+
+code, a {
+  font-weight: bold;
+}
+
+pre {
+  border-radius: 0.5rem;
+  background-color : black;
+}
+
+button {
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 0rem;
+}
+

@@ -1,0 +1,68 @@
+.floating-navbar {   
+  width: 100%;
+  padding: 1vw 5% 1vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+.floating-navbar.show {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar.hidden {
+  transform: translateY(-100%);
+}
+
+.navbar.visible {
+  transform: translateY(0);
+}
+
+.navBtns {
+   padding: 0.3rem;
+   background-color: #202123;
+   border-radius: 0.5rem;
+   display: flex;
+   align-items: center;
+  
+}
+
+.navBtn {
+   padding: 0.7rem 1.5rem;
+   font-weight: bold;
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+}
+
+.navHamBurger {
+   padding: 0;
+   font-size: 1.75rem;
+}
+
+.navBtnIcon {
+   font-size: 1.5rem;
+   background-color: inherit;
+}
+
+/* container */
+
+.container {
+  height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.copyRights {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  color: white;
+  transform: translate(-50%);
+}

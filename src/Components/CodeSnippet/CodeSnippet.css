@@ -1,0 +1,21 @@
+.codeSnippet-container {
+    border-radius: inherit;
+    background-color: black;
+}
+
+.codeSnippet-container {
+    border-radius: 0.5rem;
+}
+
+.codeSnippet-header {
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+.codeSnippet-button {
+    display: flex;
+    align-items: center;
+}
